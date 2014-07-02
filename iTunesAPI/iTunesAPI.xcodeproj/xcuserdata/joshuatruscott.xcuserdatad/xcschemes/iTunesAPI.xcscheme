@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "400C99F31961351800A0F201"
-               BuildableName = "Surf Escape.app"
-               BlueprintName = "Surf Escape"
-               ReferencedContainer = "container:Surf Escape.xcodeproj">
+               BlueprintIdentifier = "40A8DB81196268EE00730F12"
+               BuildableName = "iTunesAPI.app"
+               BlueprintName = "iTunesAPI"
+               ReferencedContainer = "container:iTunesAPI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "400C9A091961351800A0F201"
-               BuildableName = "Surf EscapeTests.xctest"
-               BlueprintName = "Surf EscapeTests"
-               ReferencedContainer = "container:Surf Escape.xcodeproj">
+               BlueprintIdentifier = "40A8DB93196268EF00730F12"
+               BuildableName = "iTunesAPITests.xctest"
+               BlueprintName = "iTunesAPITests"
+               ReferencedContainer = "container:iTunesAPI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400C99F31961351800A0F201"
-            BuildableName = "Surf Escape.app"
-            BlueprintName = "Surf Escape"
-            ReferencedContainer = "container:Surf Escape.xcodeproj">
+            BlueprintIdentifier = "40A8DB81196268EE00730F12"
+            BuildableName = "iTunesAPI.app"
+            BlueprintName = "iTunesAPI"
+            ReferencedContainer = "container:iTunesAPI.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400C99F31961351800A0F201"
-            BuildableName = "Surf Escape.app"
-            BlueprintName = "Surf Escape"
-            ReferencedContainer = "container:Surf Escape.xcodeproj">
+            BlueprintIdentifier = "40A8DB81196268EE00730F12"
+            BuildableName = "iTunesAPI.app"
+            BlueprintName = "iTunesAPI"
+            ReferencedContainer = "container:iTunesAPI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "400C99F31961351800A0F201"
-            BuildableName = "Surf Escape.app"
-            BlueprintName = "Surf Escape"
-            ReferencedContainer = "container:Surf Escape.xcodeproj">
+            BlueprintIdentifier = "40A8DB81196268EE00730F12"
+            BuildableName = "iTunesAPI.app"
+            BlueprintName = "iTunesAPI"
+            ReferencedContainer = "container:iTunesAPI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Surf Escape
+//  iTunesAPI
 //
-//  Created by Joshua Truscott on 30/06/2014.
+//  Created by Joshua Truscott on 1/07/2014.
 //  Copyright (c) 2014 JT App Development. All rights reserved.
 //
 

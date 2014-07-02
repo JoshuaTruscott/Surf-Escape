@@ -14,6 +14,9 @@
 		400C9A031961351800A0F201 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 400C9A011961351800A0F201 /* Main.storyboard */; };
 		400C9A051961351800A0F201 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400C9A041961351800A0F201 /* Images.xcassets */; };
 		400C9A111961351800A0F201 /* Surf_EscapeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 400C9A101961351800A0F201 /* Surf_EscapeTests.swift */; };
+		403E6A79196292A900E561C9 /* Surfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 403E6A78196292A900E561C9 /* Surfer.png */; };
+		403E6A7B196292C100E561C9 /* Rocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 403E6A7A196292C100E561C9 /* Rocks.png */; };
+		403E6A7D1962968400E561C9 /* Ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 403E6A7C1962968400E561C9 /* Ground.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		400C9A0A1961351800A0F201 /* Surf EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Surf EscapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		400C9A0F1961351800A0F201 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400C9A101961351800A0F201 /* Surf_EscapeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Surf_EscapeTests.swift; sourceTree = "<group>"; };
+		403E6A78196292A900E561C9 /* Surfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Surfer.png; sourceTree = "<group>"; };
+		403E6A7A196292C100E561C9 /* Rocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Rocks.png; sourceTree = "<group>"; };
+		403E6A7C1962968400E561C9 /* Ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ground.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				400C99FF1961351800A0F201 /* GameViewController.swift */,
 				400C9A011961351800A0F201 /* Main.storyboard */,
 				400C9A041961351800A0F201 /* Images.xcassets */,
+				400C9A1A19613D5100A0F201 /* Images */,
 				400C99F71961351800A0F201 /* Supporting Files */,
 			);
 			path = "Surf Escape";
@@ -113,6 +120,17 @@
 				400C9A0F1961351800A0F201 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		400C9A1A19613D5100A0F201 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				403E6A78196292A900E561C9 /* Surfer.png */,
+				403E6A7A196292C100E561C9 /* Rocks.png */,
+				403E6A7C1962968400E561C9 /* Ground.png */,
+			);
+			name = Images;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +182,7 @@
 				TargetAttributes = {
 					400C99F31961351800A0F201 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = BRE4SHMKEL;
 					};
 					400C9A091961351800A0F201 = {
 						CreatedOnToolsVersion = 6.0;
@@ -195,9 +214,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				403E6A79196292A900E561C9 /* Surfer.png in Resources */,
 				400C9A051961351800A0F201 /* Images.xcassets in Resources */,
 				400C99FC1961351800A0F201 /* GameScene.sks in Resources */,
 				400C9A031961351800A0F201 /* Main.storyboard in Resources */,
+				403E6A7D1962968400E561C9 /* Ground.png in Resources */,
+				403E6A7B196292C100E561C9 /* Rocks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,9 +355,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Surf Escape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -344,9 +371,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Surf Escape/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -405,6 +437,7 @@
 				400C9A161961351800A0F201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		400C9A171961351800A0F201 /* Build configuration list for PBXNativeTarget "Surf EscapeTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				400C9A191961351800A0F201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
